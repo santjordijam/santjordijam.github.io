@@ -1,0 +1,19 @@
+title: Sant Jordi Jam
+author: Sant Jordi Jam
+email: santjordijam@gmail.com
+description: >-
+  Lloc web de la Sant Jordi Jam.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "" # your site's origin, e.g. https://forestry.io
+
+# Build settings
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default" # this ensures all content renders with layouts/default.html
+
+plugins:
+  - jekyll-feed
+  - jekyll-menus
+

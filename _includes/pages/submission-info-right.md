@@ -1,0 +1,4 @@
+- La Jam té lloc de l'1 d'abril al 23, **dia de Sant Jordi**.
+- Per participar-hi, cal pujar a <b><a style="color: var(--col-site-black);" href="https://itch.io/jam/sant-jordi-24">itch.io</a></b>:
+    - Un <b style="color: var(--col-site-black);"><u>JOC</u></b>. Basat en el tema proposat i que compleixi amb les normes establertes per la Jam.
+    - Una <b style="color: var(--col-site-black);"><u>ROSA VIRTUAL</u></b>. La podem entendre com una espècie de min-jam amb el tema _"ROSA"_. Pot entregar-se qualsevol tipus de contingut digital: una imatge, un model 3D, una cançó o poema, un minijoc...

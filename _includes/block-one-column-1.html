@@ -1,0 +1,15 @@
+<section id="{{ section.slug | slugify }}" class="block block-one-column-1">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        {% if section.md_file %}
+          {% capture section_content %} {% include {{ section.md_file }} %}{% endcapture %}
+          {{ section_content | markdownify }}
+        {% else %}
+          <h3>{{ section.headline }}</h3>
+          <p>{{ section.content }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

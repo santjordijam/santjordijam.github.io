@@ -1,0 +1,26 @@
+<section class="block block-text-1">
+  <div class="container">
+    <div class="columns">
+      <div class="column headline">
+
+        {% if section.md_file_left %}
+          {% capture section_content_left %} {% include {{ section.md_file_left }} %}{% endcapture %}
+          {{ section_content_left | markdownify }}
+        {% else %}
+          <h3>{{ section.headline }}</h3>
+        {% endif %}
+
+      </div>
+      <div class="column text" style="color: var(--col-site-white); background-color: var(--col-site-red); border-radius: 12px;">
+
+        {% if section.md_file_right %}
+          {% capture section_content_right %} {% include {{ section.md_file_right }} %}{% endcapture %}
+          {{ section_content_right | markdownify }}
+        {% else %}
+          {{ section.content }}
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+</section>
