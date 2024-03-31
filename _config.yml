@@ -4,7 +4,8 @@ email: santjordijam@gmail.com
 description: >-
   Lloc web de la Sant Jordi Jam.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # your site's origin, e.g. https://forestry.io
+url: "https://santjordijam.github.io" # your site's origin, e.g. https://forestry.io
+keyword: "Sant Jordi Jam, Sant Jordi, Game Jam, Video Games"
 
 # Build settings
 defaults:
