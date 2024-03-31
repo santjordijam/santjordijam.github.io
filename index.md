@@ -38,6 +38,12 @@ page_sections:
     md_file_left: pages/submission-info-left.md
     md_file_right: pages/submission-info-right.md
 
+  - template: detail-content
+    slug: llegenda
+    block: text-2
+    md_file_left: pages/legend-title.md
+    md_file_right: pages/legend-content.md
+
   - template: 1-column-text
     block: one-column-1
     slug: team

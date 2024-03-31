@@ -1,7 +1,7 @@
 <section id="{{ section.slug | slugify }}" class="block block-text-1">
   <div class="container">
     <div class="columns">
-      <div class="column headline">
+      <div class="column headline background">
 
         {% if section.md_file_left %}
           {% capture section_content_left %} {% include {{ section.md_file_left }} %}{% endcapture %}
@@ -11,7 +11,7 @@
         {% endif %}
 
       </div>
-      <div class="column text" style="color: var(--col-site-white); background-color: var(--col-site-red); border-radius: 12px;">
+      <div class="column text">
 
         {% if section.md_file_right %}
           {% capture section_content_right %} {% include {{ section.md_file_right }} %}{% endcapture %}

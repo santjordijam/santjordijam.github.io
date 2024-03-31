@@ -658,6 +658,13 @@ input.inverted::placeholder {
     flex: 0 0 100%
 }
 
+.block-text-1 .background p {
+    color: var(--col-site-white);
+    background-color: var(--col-site-red);
+    border-radius: 12px;
+    padding: 16px;
+}
+
 .block-text-1 .text p {
     margin: 16px 0;
     margin: 1rem 0
