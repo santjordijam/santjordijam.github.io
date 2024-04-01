@@ -1,6 +1,7 @@
 ---
 layout: blocks
 title: Sant Jordi Jam
+permalink: /es
 page_sections:
 
   - template: navigation-header-w-button
@@ -8,11 +9,11 @@ page_sections:
     logo: "/img/logo-horizontal.png"
     cta:
       buttons:
-        - url: "/es"
-          button_text: "castellano"
+        - url: "/"
+          button_text: "català"
           button_class: "secondary"
         - url: https://itch.io/jam/sant-jordi-24
-          button_text: "<i class='fab fa-itch-io' style='font-size: 1.2rem'></i> participa-hi!"
+          button_text: "<i class='fab fa-itch-io' style='font-size: 1.2rem'></i> ¡Participa!"
           button_class: "primary"
 
   - template: hero-banner-w-image
@@ -22,7 +23,7 @@ page_sections:
     content: |
       <b style="color: var(--col-site-black)">
       La <i>game jam</i> de la Diada de Sant Jordi.<br>
-      <i style="color: var(--col-site-cream)">Descobreix més sobre nosaltres a les nostres xarxes!</i>
+      <i style="color: var(--col-site-cream)">¡Descubre más sobre nosotros en nuestras redes!</i>
       </b>
     cta:
       enabled: true
@@ -45,8 +46,8 @@ page_sections:
   - template: detail-content
     slug: llegenda
     block: text-2
-    md_file_left: pages/legend-title.md
-    md_file_right: pages/legend-content.md
+    md_file_left: pages/legend-title_es.md
+    md_file_right: pages/legend-content_es.md
 
   - template: 1-column-text
     block: one-column-1
