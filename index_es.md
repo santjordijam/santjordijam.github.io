@@ -29,9 +29,9 @@ page_sections:
       enabled: true
       buttons:
         - url: https://twitter.com/SantJordiJam
-          button_text: "<i class='fab fa-fw fa-twitter' style='font-size: 1.1rem; padding-right: 16px'></i> segueix-nos!"
+          button_text: "<i class='fab fa-fw fa-twitter' style='font-size: 1.1rem; padding-right: 16px'></i> ¡síguenos!"
         - url: https://itch.io/jam/sant-jordi-24
-          button_text: "<i class='fab fa-itch-io' style='font-size: 1.1rem; padding-right: 6px'></i> apunta-t'hi!"
+          button_text: "<i class='fab fa-itch-io' style='font-size: 1.1rem; padding-right: 6px'></i> ¡apúntate!"
     image:
       image: "/img/sant-jordi-jam-vertical.png"
       alt_text: Product Shot
@@ -40,11 +40,11 @@ page_sections:
   - template: detail-content
     slug: submission
     block: text-1
-    md_file_left: pages/submission-info-left.md
-    md_file_right: pages/submission-info-right.md
+    md_file_left: pages/submission-info-left_es.md
+    md_file_right: pages/submission-info-right_es.md
 
   - template: detail-content
-    slug: llegenda
+    slug: leyenda
     block: text-2
     md_file_left: pages/legend-title_es.md
     md_file_right: pages/legend-content_es.md
