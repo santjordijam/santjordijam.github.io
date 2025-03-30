@@ -27,8 +27,8 @@ page_sections:
     cta:
       enabled: true
       buttons:
-        - url: https://twitter.com/SantJordiJam
-          button_text: "<i class='fab fa-fw fa-twitter' style='font-size: 1.1rem; padding-right: 16px'></i> segueix-nos!"
+        - url: https://bsky.app/profile/santjordijam.bsky.social
+          button_text: "<i class='fab fa-fw fa-bluesky' style='font-size: 1.1rem; padding-right: 16px'></i> segueix-nos!"
         - url: https://itch.io/jam/sant-jordi-jam-2025
           button_text: "<i class='fab fa-itch-io' style='font-size: 1.1rem; padding-right: 6px'></i> apunta-t'hi!"
     image:
