@@ -6,34 +6,34 @@ page_sections:
 
   - template: navigation-header-w-button
     block: header-2
-    logo: "/img/logo-horizontal.png"
+    logo: "/img/logo-horizontal.webp"
     cta:
       buttons:
         - url: "/"
           button_text: "català"
           button_class: "secondary"
-        - url: https://itch.io/jam/sant-jordi-24
+        - url: https://itch.io/jam/sant-jordi-jam-2025
           button_text: "<i class='fab fa-itch-io' style='font-size: 1.2rem'></i> ¡Participa!"
           button_class: "primary"
 
   - template: hero-banner-w-image
     block: hero-2
     slug: sant-jordi-jam
-    headline: "<div style='font-family: var(--font-monospace);'>Sant Jordi <br><strong>jam</strong> 2024 </div>"
+    headline: "<div style='font-family: var(--font-monospace);'>Sant Jordi <br><strong>jam</strong> 2025 </div>"
     content: |
-      <b style="color: var(--col-site-black)">
+      <b style="color: var(--col-site-subtitle-dark)">
       La <i>game jam</i> de la Diada de Sant Jordi.<br>
-      <i style="color: var(--col-site-cream)">¡Descubre más sobre nosotros en nuestras redes!</i>
+      <i style="color: var(--col-site-subtitle-light)">¡Descubre más sobre nosotros en nuestras redes!</i>
       </b>
     cta:
       enabled: true
       buttons:
         - url: https://twitter.com/SantJordiJam
           button_text: "<i class='fab fa-fw fa-twitter' style='font-size: 1.1rem; padding-right: 16px'></i> ¡síguenos!"
-        - url: https://itch.io/jam/sant-jordi-24
+        - url: https://itch.io/jam/sant-jordi-jam-2025
           button_text: "<i class='fab fa-itch-io' style='font-size: 1.1rem; padding-right: 6px'></i> ¡apúntate!"
     image:
-      image: "/img/sant-jordi-jam-vertical.png"
+      image: "/img/sant-jordi-jam-vertical.webp"
       alt_text: Product Shot
     background_image: "/img/hero-2-bg.png"
 

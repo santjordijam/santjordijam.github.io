@@ -3,10 +3,14 @@
     --font-sans-serif: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
 
     --col-site-white: #FFFFFF;
-    --col-site-cream: #FBDBB2;
-    --col-site-red: #E55568;
-    --col-site-blue: #A1D9F3;
+    --col-site-cream: #dbab72;
+    --col-site-pink: #ED7E93;
+    --col-site-main: #286873;
     --col-site-black: #16161D;
+    --col-site-subtitle-dark: #dbdbdb;
+    --col-site-subtitle-light: #ED7E93;
+    --col-site-text-header: #074f5c;
+    --col-site-text-block-dark: #2d2d31;
 }
 
 * {
@@ -19,7 +23,7 @@ body {
 }
 
 header {
-    background-color: var(--col-site-white);
+    background-color: var(--col-site-text-header);
 }
 
 h1 {
@@ -36,6 +40,7 @@ h1 span.light {
 }
 
 h2 {
+    color: var(--col-site-text-header);
     font-size: 32px;
     font-size: 2rem;
     font-weight: 700
@@ -59,11 +64,11 @@ p {
 
 p {
     font-weight: 400;
-    color: #666
+    color: var(--col-site-text-block-dark);
 }
 
 a {
-    color: var(--col-site-red);
+    color: var(--col-site-main);
 }
 
 ul {
@@ -72,6 +77,7 @@ ul {
 }
 
 li {
+    color: var(--col-site-text-block-dark);
     padding-top: 3px;
     padding-bottom: 3px;
 }
@@ -128,18 +134,22 @@ li {
 }
 
 .button.primary {
-    background-color: var(--col-site-red);
+    background-color: var(--col-site-main);
     color: var(--col-site-white);
 }
 
 .button.primary.inverted {
     background-color: var(--col-site-white);
-    color: var(--col-site-red);
+    color: var(--col-site-main);
 }
 
 .button.secondary {
     background-color: transparent;
-    border: 1.5px solid var(--col-site-red);
+    border: 1.5px solid var(--col-site-white);
+}
+
+a.button.secondary {
+    color: var(--col-site-white);
 }
 
 .button.small {
@@ -161,15 +171,15 @@ input {
 }
 
 input::-webkit-input-placeholder {
-    color: #666
+    color: var(--col-site-text-block-dark);
 }
 
 input:-ms-input-placeholder {
-    color: #666
+    color: var(--col-site-text-block-dark);
 }
 
 input::placeholder {
-    color: #666
+    color: var(--col-site-text-block-dark);
 }
 
 input.inverted {
@@ -217,7 +227,7 @@ input.inverted::placeholder {
 }
 
 .block-header-1 .nav-item.active a {
-    color: var(--col-site-red);
+    color: var(--col-site-main);
 }
 
 .block-header-1 .nav-item a {
@@ -226,11 +236,11 @@ input.inverted::placeholder {
 }
 
 .block-header-1 .nav-item a:hover {
-    color: #666
+    color: var(--col-site-text-block-dark);
 }
 
 .block-header-1 .nav-item.active a:hover {
-    color: var(--col-site-red);
+    color: var(--col-site-main);
 }
 
 .block-header-1 .nav-item:last-of-type {
@@ -276,7 +286,7 @@ input.inverted::placeholder {
 }
 
 .block-header-2 .nav-item.active a {
-    color: var(--col-site-red);
+    color: var(--col-site-main);
 }
 
 .block-header-2 .nav-item a {
@@ -285,11 +295,11 @@ input.inverted::placeholder {
 }
 
 .block-header-2 .nav-item a:hover {
-    color: #666
+    color: var(--col-site-text-block-dark);
 }
 
 .block-header-2 .nav-item.active a:hover {
-    color: var(--col-site-red);
+    color: var(--col-site-main);
 }
 
 .block-header-2 .nav-item:last-of-type {
@@ -321,7 +331,7 @@ input.inverted::placeholder {
 }
 
 .block-hero-1 {
-    --bg: var(--col-site-red);
+    --bg: var(--col-site-main);
     --text: #fff;
     display: -ms-flexbox;
     display: flex;
@@ -344,7 +354,7 @@ input.inverted::placeholder {
 }
 
 .block-hero-2 {
-    --bg: var(--col-site-red);
+    --bg: var(--col-site-main);
     --text: #fff;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -512,7 +522,7 @@ input.inverted::placeholder {
 .block-cta-bar {
     padding: 32px;
     padding: 2rem;
-    background: var(--col-site-red);
+    background: var(--col-site-main);
     color: #fff
 }
 
@@ -598,7 +608,7 @@ input.inverted::placeholder {
 .block-footer-1 {
     font-size: 12.8px;
     font-size: .8rem;
-    color: #666;
+    color: var(--col-site-text-block-dark);
     text-align: center
 }
 
@@ -660,7 +670,7 @@ input.inverted::placeholder {
 
 .block-text-1 .background p {
     color: var(--col-site-white);
-    background-color: var(--col-site-red);
+    background-color: var(--col-site-main);
     border-radius: 12px;
     padding: 16px;
 }
@@ -818,7 +828,7 @@ input.inverted::placeholder {
 .block-media-1 figcaption {
     font-size: 11.2px;
     font-size: .7rem;
-    color: #666;
+    color: var(--col-site-text-block-dark);
     text-align: center;
     margin-top: 8px;
     margin-top: .5rem
@@ -847,7 +857,7 @@ input.inverted::placeholder {
 .block-media-2 figcaption {
     font-size: 11.2px;
     font-size: .7rem;
-    color: #666;
+    color: var(--col-site-text-block-dark);
     text-align: center;
     margin-top: 8px;
     margin-top: .5rem
